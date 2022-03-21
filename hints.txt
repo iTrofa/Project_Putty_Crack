@@ -1,0 +1,9 @@
+010editor Cracks 
+## CTRL + F -> \SimonTatham\PuTTY\SshHostKeys => modifié par PuTTY\SshLegitKey
+## Visual Changes : Failed log in pop up screen, "PuTTY Fatal Error" -> "PuTTY Fatal win!!" & "Network error : Connection refused" ->  "Network win!!: Connection started"
+
+0x7ffa417606b1 =>  jmp 0x7ffa417606b3  # opens putty gui (probably if no errors found before)
+
+
+0x14007f88c -> fonction qui crée le registre ou pas
+0x1400048ec -> main?  
