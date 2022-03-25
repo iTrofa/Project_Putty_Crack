@@ -4,6 +4,21 @@
 
 0x7ffa417606b1 =>  jmp 0x7ffa417606b3  # opens putty gui (probably if no errors found before)
 
+registry saved session path changed
+new session will now open with dark foreground therefore confusing whoever tries to use SSH :D
+
+jmp -> 0x14007afa3 (connection reset by peer because timeout :D) because screen is dark 
 
 0x14007f88c -> fonction qui crée le registre ou pas
 0x1400048ec -> main?  
+
+
+je 0x140004aa0 -> jmp 0x140004e84
+
+tester:
+jmp 0x1400270af
+
+changing ret into ^^ at -> 0x14007afda
+
+
+0x1400346f4
